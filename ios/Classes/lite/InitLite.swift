@@ -9,7 +9,5 @@ public class InitLite: Init {
       YandexMapFactory(registrar: registrar),
       withId: "yandex_mapkit/yandex_map"
     )
-
-    YMKMapKit.sharedInstance().onStart()
   }
 }
